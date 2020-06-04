@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".AddFoodFragment">
+
+    <Button
+        android:id="@+id/button_add_vegetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_vegetable" />
+
+    <Button
+        android:id="@+id/button_add_meat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_meat" />
+
+    <Button
+        android:id="@+id/button_add_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_fruit" />
+
+    <fragment
+        android:id="@+id/fragment_all_food_list"
+        android:name="com.example.teamfireapp.AllFoodListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="582dp"
+        tools:layout="@layout/fragment_all_food_list" />
+</LinearLayout>

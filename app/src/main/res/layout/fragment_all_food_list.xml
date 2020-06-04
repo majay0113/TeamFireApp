@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_all_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllFoodListFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_all_fruit"
+        android:layout_width="match_parent"
+        android:layout_height="67dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_all_veg"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_meat_here"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+</LinearLayout>

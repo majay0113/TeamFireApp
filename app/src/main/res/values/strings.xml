@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Team Fire App</string>
+    <string name="add_food">ADD FOOD</string>
+    <string name="search_recipies">SEARCH RECIPIES</string>
+    <string name="favourite_recupies">FAVOURITE RECUPIES</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_meat">ADD MEAT</string>
+    <string name="add_fruit">ADD FRUIT</string>
+    <string name="add_vegetable">ADD VEGETABLE</string>
+    <string name="my_ingredient">MyIngredient</string>
+    <string name="add_to_favourite">ADD TO FAVOURITE</string>
+
+</resources>
